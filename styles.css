@@ -197,8 +197,9 @@ Countdown Timer
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    gap: 3rem;
+    gap: 1rem;
     width: 95vw;
+    margin-top: 1rem;
   }
   .gift-img {
     margin-bottom: 0;
