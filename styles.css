@@ -184,6 +184,7 @@ Countdown Timer
   text-transform: uppercase;
   color: var(--clr-primary-3);
   text-align: center;
+  justify-items: center;
 }
 .gift-info p {
   color: var(--clr-grey-6);
@@ -192,7 +193,7 @@ Countdown Timer
   color: var(--clr-grey-5);
   font-size: 0.85rem;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
   .section-center {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -200,6 +201,15 @@ Countdown Timer
     gap: 1rem;
     width: 95vw;
     margin-top: 1rem;
+
+    }  
+    .gift-info h3 {
+      text-align:center;
+      margin-top:1rem;
+    }
+    .deadline {
+      justify-content: center;
+    }  
   }
   .gift-img {
     margin-bottom: 0;
