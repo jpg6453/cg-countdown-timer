@@ -201,16 +201,15 @@ Countdown Timer
     gap: 1rem;
     width: 95vw;
     margin-top: 1rem;
-
-    }  
-    .gift-info h3 {
-      text-align:center;
-      margin-top:1rem;
-    }
-    .deadline {
-      justify-content: center;
-    }  
   }
+  .gift-info h3 {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .deadline {
+    justify-content: center;
+  }
+
   .gift-img {
     margin-bottom: 0;
   }
