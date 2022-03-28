@@ -39,6 +39,7 @@ Variables
   --clr-grey-10: hsl(210, 36%, 96%);
   --clr-white: #fff;
   --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-pink: rgb(187, 37, 187);
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
@@ -180,14 +181,14 @@ Countdown Timer
 .gift-img {
   margin-bottom: 2rem;
 }
-.gift-info h1 {
+.gift-info h3 {
   text-transform: uppercase;
-  color: var(--clr-primary-3);
+  color: var(--clr-pink);
   text-align: center;
   justify-items: center;
 }
 .gift-info p {
-  color: var(--clr-grey-6);
+  color: var(--clr-pink);
 }
 .date {
   color: var(--clr-grey-5);
@@ -221,8 +222,9 @@ Countdown Timer
   display: flex;
 }
 .deadline-format {
-  background: var(--clr-grey-1);
+  background: var(--clr-pink);
   color: var(--clr-white);
+  border-radius: 5px;
   margin-right: 1rem;
   width: 5rem;
   height: 5rem;
